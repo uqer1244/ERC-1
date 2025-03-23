@@ -1,0 +1,120 @@
+(footprint "Jumper"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "JP6"
+		(at -2.413 0.127 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff34c4e8-4afc-4d4f-a465-7830d718876e")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" " SDA"
+		(at -2.794 0 0)
+		(layer "F.SilkS")
+		(uuid "792286c5-a4cd-442d-a314-50230f693478")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51b3c437-c7c7-4e2e-8579-3a784d355b98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeaa6ffe-6d4b-48ef-add6-3b0e850fdf3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.143 -0.889)
+		(end 1.143 -0.889)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c06a177-164f-4798-bae8-4b9e9b3e7f49")
+	)
+	(fp_line
+		(start -1.143 0.889)
+		(end -1.143 -0.889)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ef0b393-43eb-4f19-80a7-7a65065f559d")
+	)
+	(fp_line
+		(start 1.143 -0.889)
+		(end 1.143 0.889)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "942f9b4d-16f6-41c3-8d35-6ffb1d165488")
+	)
+	(fp_line
+		(start 1.143 0.889)
+		(end -1.143 0.889)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99155e2f-e536-401b-a7ff-2db819431614")
+	)
+	(pad "1" smd rect
+		(at -0.50038 0)
+		(size 0.635 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.1905)
+		(uuid "d5db9aee-1b85-4ed0-8895-cc79f19ef5f8")
+	)
+	(pad "2" smd rect
+		(at 0.50038 0)
+		(size 0.635 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.1905)
+		(uuid "8911c4d5-b1e8-43a3-a6ef-4dba79ebb046")
+	)
+	(embedded_fonts no)
+	(model "smd\\resistors\\R0603.wrl"
+		(offset
+			(xyz 0 0 0.02539999962)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
