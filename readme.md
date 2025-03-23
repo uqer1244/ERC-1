@@ -20,3 +20,9 @@ The six EX1 ~ EX6 pins allow direct attachment of ZMK-compatible modules.
 ## Firmware
 
 Using zmk and I'm still working on it
+
+## Inspired
+
+- Corne : https://github.com/foostan/crkbd 
+- Ergonaunt One : https://github.com/ergonautkb/one
+- Chocofi : https://github.com/pashutk/chocofi
