@@ -1,8 +1,6 @@
 # Vireon 42 Split - Wireless Choc V1 Keyboard
 > A **wireless**, **42-key split keyboard** with a Corne-like layout, based on **ProMicro nRF52840**.
-
-![Vireon 42](https://your-image-url-here.com)
-
+> 
 ---
 
 ##**Features**
@@ -29,7 +27,7 @@
 
 ## **Firmware**
 This keyboard runs on **[ZMK Firmware](https://zmk.dev/)**.  
-🚧 *Firmware development is still in progress!*  
+*Firmware development is still in progress!*  
 
 
 **More detailed firmware setup instructions coming soon!**  
