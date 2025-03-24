@@ -23,6 +23,10 @@ The six EX1 ~ EX6 pins allow direct attachment of ZMK-compatible modules.
 
 Using zmk and I'm still working on it
 
+## What you need
+- 2x Promicro nRF52840
+- 2x PCB (reversible)
+
 ## Inspired
 
 - Corne : https://github.com/foostan/crkbd 
