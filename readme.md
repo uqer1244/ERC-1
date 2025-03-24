@@ -1,39 +1,71 @@
-# Vireon 42 Split
+# Vireon 42 Split - Wireless Choc V1 Keyboard
+> A **wireless**, **42-key split keyboard** with a Corne-like layout, based on **ProMicro nRF52840**.
 
-The vireon 42 is a wireless 42-key choc v1 split that uses a Corne-like layout with a promicro.
-It supports OLED and is wireless, so it doesn't use a TRRS cable. (thinking of making a option in v2)
+![Vireon 42](https://your-image-url-here.com)
 
-## Design Goals
+---
 
-- Low cost
-- Extensibility
-- Simplicity
-- Portability
-- Unique designs
-- Wireless
-- OLED displays
+##**Features**
+**Wireless** - No TRRS cable required (optional in V2)  
+**Compact & Portable** - 42-key Corne-like layout  
+**Low-cost & Simple** - Reversible PCB to reduce manufacturing cost  
+**OLED Support** - Display module compatibility  
+**Customizable** - EX1 ~ EX6 expansion pins for additional modules  
 
-The PCB is reversible to reduce manufacturing costs. 
+---
 
-The six EX1 ~ EX6 pins allow direct attachment of ZMK-compatible modules.
+## **Required Parts**
+| Quantity | Item |
+|----------|------|
+| **2x** | ProMicro nRF52840 |
+| **2x** | PCB (Reversible) |
+| **42x** | Kailh Choc V1 Switches |
+| **42x** | Kailh Choc Keycaps |
+| **42x** | 1N4148 Diodes |
+| **1x** | Case (WIP) |
+| **Optional** | OLED Display, Battery, Additional Extensions |
 
-42keys are easy to adapt.
+---
 
-## Firmware
+## **Firmware**
+This keyboard runs on **[ZMK Firmware](https://zmk.dev/)**.  
+🚧 *Firmware development is still in progress!*  
 
-Using zmk and I'm still working on it
 
-## What you need
-- 2x Promicro nRF52840
-- 2x PCB (reversible)
-- 42x Kailh choc v1
-- 42x kailh choc keycap
-- 42x 1N4148
-- case (working)
-- Extensions that you want to apply
+**More detailed firmware setup instructions coming soon!**  
 
-## Inspired
+---
 
-- Corne : https://github.com/foostan/crkbd 
-- Ergonaunt One : https://github.com/ergonautkb/one
-- Chocofi : https://github.com/pashutk/chocofi
+## **Design Goals**
+🔹 **Low-cost** - Minimal manufacturing cost  
+🔹 **Extensibility** - Easy to customize and upgrade  
+🔹 **Simplicity** - Clean and easy-to-use design  
+🔹 **Portability** - Lightweight and wireless  
+🔹 **Unique Design** - Stand out from standard layouts  
+
+---
+
+## **Inspired by**
+Vireon 42 is influenced by several amazing open-source keyboard projects:  
+- [Corne](https://github.com/foostan/crkbd) - Original Corne layout inspiration  
+- [Ergonaut One](https://github.com/ergonautkb/one) - Ergonomic design ideas  
+- [Chocofi](https://github.com/pashutk/chocofi) - **Borrowed Promicro, Battery, and Diode footprints**  
+
+---
+
+## **Changelog**
+**Major changes from [Chocofi](https://github.com/pashutk/chocofi):**  
+- **Promicro footprints added**  
+- **Battery footprints included**  
+- **Diode footprints optimized**  
+
+---
+
+## **Contributing**
+If you'd like to contribute or report issues, feel free to open a pull request or an issue on GitHub!  
+
+---
+
+## **License**
+This project is open-source under the **CERN-OHL-P v2 License**.  
+Check out [LICENSE](LICENSE.txt) for more details.  
