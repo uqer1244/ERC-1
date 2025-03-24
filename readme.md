@@ -26,6 +26,11 @@ Using zmk and I'm still working on it
 ## What you need
 - 2x Promicro nRF52840
 - 2x PCB (reversible)
+- 42x Kailh choc v1
+- 42x kailh choc keycap
+- 42x 1N4148
+- case (working)
+- Extensions that you want to apply
 
 ## Inspired
 
